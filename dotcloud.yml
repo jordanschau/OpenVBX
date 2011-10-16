@@ -1,0 +1,6 @@
+www:
+  type: php
+db:
+  type: mysql
+smtp:
+  type: smtp
