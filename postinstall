@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ ! -e ~/current/OpenVBX/config/database.php ]; then
+
+mv ~/current/OpenVBX/config/database-remote.php ~/current/OpenVBX/config/database.php
+
+fi
+
+if [ ! -e ~/current/OpenVBX/config/openvbx.php ]; then
+
+mv ~/current/OpenVBX/config/openvbx-remote.php ~/current/OpenVBX/config/openvbx.php
+
+fi
