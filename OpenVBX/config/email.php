@@ -16,11 +16,12 @@ $config['mailpath'] = '/usr/sbin/sendmail';   //The server path to Sendmail.
 | -------------------------------------------------------------------
 */
 
-$config['smtp_host'] = '';		//SMTP Server Address.
-$config['smtp_user'] = '';		//SMTP Username.
-$config['smtp_pass'] = '';		//SMTP Password.
-$config['smtp_port'] = '25';	// SMTP Port.
-$config['smtp_timeout'] = '5';	// SMTP Timeout (in seconds).
+$config['protocol'] = 'smtp';
+$config['smtp_host'] = 'smtp.purefixphones.dotcloud.com'; //SMTP Server Address.
+$config['smtp_user'] = 'dotcloud'; //SMTP Username.
+$config['smtp_pass'] = '0WoDY7B1AW1T8Q36zww3'; //SMTP Password.
+$config['smtp_port'] = '3488'; // SMTP Port.
+$config['smtp_timeout'] = '5'; // SMTP Timeout (in seconds).
 
 /*
 | -------------------------------------------------------------------
